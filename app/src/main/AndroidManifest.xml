@@ -12,6 +12,8 @@
         <activity android:name=".Activity_kedua"
             android:parentActivityName=".MainActivity"
             android:label="@string/label2"></activity>
+        <activity android:name=".DaftarActivity"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -21,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
