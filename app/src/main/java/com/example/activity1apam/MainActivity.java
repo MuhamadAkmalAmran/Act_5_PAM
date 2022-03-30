@@ -47,7 +47,9 @@ public class MainActivity extends AppCompatActivity {
                     b.putString("b", password.trim());
 
                     //membuat objek intent berpindah activity dari mainactivity ke Activitykedua
-                    Intent i = new Intent(getApplicationContext(), Activity_kedua.class);
+                    //Intent i = new Intent(getApplicationContext(), Activity_kedua.class);
+
+                    Intent i = new Intent(getApplicationContext(),HomeActivity.class );
 
                     //memasukkan bundle kedalam intent untuk dikirim ke AcitivityKedua
                     i.putExtras(b);

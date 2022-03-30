@@ -32,7 +32,6 @@ public class DaftarActivity  extends AppCompatActivity {
         fab = (FloatingActionButton) findViewById(R.id.fabSimpan);
 
         //membuat method untuk event dari floating button
-
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
